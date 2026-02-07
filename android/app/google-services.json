@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676371622011",
+    "project_id": "avian-curve-477712-n9",
+    "storage_bucket": "avian-curve-477712-n9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676371622011:android:ca7ddd6eef850117091ade",
+        "android_client_info": {
+          "package_name": "com.example.fitnesstracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDStEd3vYuaeFUmEKQkY4Gnou6-8vuQRx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
