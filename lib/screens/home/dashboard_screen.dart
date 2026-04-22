@@ -148,8 +148,9 @@ class DashboardScreen extends StatelessWidget {
       stream: DatabaseService().fitnessStream,
       builder: (context, snapshot) {
         if (!snapshot.hasData) return const SizedBox();
-        if (snapshot.data!.isEmpty)
+        if (snapshot.data!.isEmpty) {
           return const Center(child: Text("No records yet."));
+        }
 
         return ListView.builder(
           shrinkWrap: true,
